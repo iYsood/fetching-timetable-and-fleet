@@ -1,0 +1,128 @@
+$(document).ready(function() {
+  const flightData = {};
+
+  function convertTimestampToTime(timestamp) {
+    const date = new Date(parseInt(timestamp));
+
+    const hours = date.getUTCHours();
+    const minutes = date.getUTCMinutes();
+
+    const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+
+    return formattedTime;
+  }
+
+  function extractData(htmlString) {
+    const timestampRegex = /data-timestamp="(\d+)"/;
+    const timeRegex = />([^<]+)<\/strong>/;
+    const numberRegex = /<\/strong><br>(\d+)/;
+
+    const timestampMatch = htmlString.match(timestampRegex);
+    const timestamp = timestampMatch ? timestampMatch[1] : null;
+
+    const timeMatch = htmlString.match(timeRegex);
+    const time = timeMatch ? timeMatch[1] : null;
+
+    const numberMatch = htmlString.match(numberRegex);
+    const number = numberMatch ? numberMatch[1] : null;
+
+    return {
+      timestamp: timestamp,
+      time: time,
+      number: number
+    };
+  }
+
+  function loadTable(url) {
+    let type = url.substr(5, 3)
+
+    $.ajax({
+      url: url,
+      method: 'GET',
+      success: function(tableHtml) {
+        $('#container-fetch').after(`<h4>${ url }</h4><br>${ tableHtml}`);
+
+        const $table = $('.table-condensed');
+        const $rows = $table.find('tbody tr');
+
+        let this_apt = ''
+        let this_callsign = ''
+        $rows.each(function() {
+          const $row = $(this);
+          $row.find('strong.ng-hide').remove()
+
+          let i = 0;
+          $row.find('td').each(function() {
+            const $cell = $(this);
+            const airport = $cell.html().match(/\/\s*([A-Z]{4})/);
+            const iata = $cell.data('iata');
+            const icao = airport ? airport[1] : '';
+            const callsign = $cell.attr('title');
+            const flight = $cell.find('small');
+
+            if (icao != undefined && icao != ''){
+              // console.log('iata', iata, icao);
+              if (!flightData[icao]) {
+                flightData[icao] = [];
+              }
+              this_apt = icao
+            }
+
+            if (callsign != undefined){
+              this_callsign = callsign
+              // console.log('callsign', callsign, this_callsign, this_apt);
+            }
+
+            if (flight.length > 0){
+              flight2 = extractData(flight.html());
+              depart = convertTimestampToTime(flight2.timestamp);
+              aircraft = flight2.number
+
+              const $targetCell = $('#tbl-routes-departures tbody td').filter(function() {
+                return $(this).find('strong[data-timestamp="' + flight2.timestamp + '"]').length > 0;
+              });
+              const columnIndex = $targetCell.index();
+              const $header = $('#tbl-routes-departures thead th').eq(columnIndex);
+              const dateText = $header.text().trim();
+              const date = new Date(dateText + " 2024");
+              const options = { weekday: 'short' };
+              const dayName = new Intl.DateTimeFormat('en-US', options).format(date);
+
+              // console.log('FINAL', depart, aircraft, dayName, this_callsign, this_apt);
+
+              if (type === 'DEP'){
+                flightData[this_apt].push({
+                  flightType: type,
+                  flightNumber: this_callsign,
+                  arrivalAirport: this_apt,
+                  flightDay: dayName,
+                  flightTime: depart,
+                  flightActs: aircraft
+                });
+              }else{
+                flightData[this_apt].push({
+                  flightType: type,
+                  flightNumber: this_callsign,
+                  departureAirport: this_apt,
+                  flightDay: dayName,
+                  flightTime: depart,
+                  flightActs: aircraft
+                });
+              }
+
+            }
+          });
+        });
+      },
+      error: function(xhr, status, error) {
+        console.error('Error loading the table:', error);
+      }
+    });
+
+    console.log(type, '---');
+    console.log(flightData);
+    console.log('---', type);
+  }
+
+  loadTable('OENN-DEP.html')
+});

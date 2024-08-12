@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="d-flex flex-wrap gap-2 my-4" id="action-button">
+      <div class="dropdown">
+        <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" id="extracting" data-id="fleet" data-company="sva">SVA</a></li>
+          <li><a class="dropdown-item" href="#" id="extracting" data-id="fleet" data-company="kne">KNE</a></li>
+          <li><a class="dropdown-item" href="#" id="extracting" data-id="fleet" data-company="fad">FAD</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-outline-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          EXTRACT DATA
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" id="extracting" data-id="schedules" data-company="sva">SVA</a></li>
+          <li><a class="dropdown-item" href="#" id="extracting" data-id="schedules" data-company="kne">KNE</a></li>
+          <li><a class="dropdown-item" href="#" id="extracting" data-id="schedules" data-company="fad">FAD</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-outline-danger" id="clearing">CLEAR</button>
+    </div>
+
+    <div id="progress-container" class="mb-3" style="display: none;">
+      <div class="progress">
+        <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div id="container-fetch"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

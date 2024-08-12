@@ -1,0 +1,670 @@
+{
+  "A21N": [
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAA"
+    },
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAB"
+    },
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAC"
+    },
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAD"
+    },
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAE"
+    },
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAG"
+    },
+    {
+      "NAME": "Airbus A321-251NX",
+      "REG": "HZ-ASAH"
+    }
+  ],
+  "A320": [
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS51"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS52"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS53"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS54"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS55"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS56"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS57"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS58"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS59"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS60"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS61"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS62"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS63"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS64"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS65"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS66"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS67"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS68"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS69"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS72"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS73"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS74"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS75"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS76"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS77"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS78"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS79"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS82"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS83"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-AS84"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASA"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASB"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASC"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASD"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASE"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASF"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-ASG"
+    }
+  ],
+  "A321": [
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASH"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASI"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASJ"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASK"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASL"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASM"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASN"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASO"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASP"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASQ"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASR"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-AST"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASU"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASV"
+    },
+    {
+      "NAME": "Airbus A321-211",
+      "REG": "HZ-ASW"
+    }
+  ],
+  "A332": [
+    {
+      "NAME": "Airbus A330-243",
+      "REG": "EC-MAJ"
+    }
+  ],
+  "A333": [
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "EC-NOF"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "EC-NOG"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "EC-NTY"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ11"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ12"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ13"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ14"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ15"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ16"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ17"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ18"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ19"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ20"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ21"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ22"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ23"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ24"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ25"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ26"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ27"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ28"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQ29"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQA"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQB"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQC"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQD"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQE"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQF"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQG"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQH"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQI"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQJ"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQK"
+    },
+    {
+      "NAME": "Airbus A330-343",
+      "REG": "HZ-AQL"
+    }
+  ],
+  "B744": [
+    {
+      "NAME": "Boeing 747-45E(BDSF)",
+      "REG": "9H-AKA"
+    },
+    {
+      "NAME": "Boeing 747-45E(BDSF)",
+      "REG": "9H-AKF"
+    },
+    {
+      "NAME": "Boeing 747-428",
+      "REG": "9H-AZA"
+    },
+    {
+      "NAME": "Boeing 747-428",
+      "REG": "9H-AZB"
+    }
+  ],
+  "B772": [
+    {
+      "NAME": "Boeing 777-219(ER)",
+      "REG": "9H-AZG"
+    },
+    {
+      "NAME": "Boeing 777-219(ER)",
+      "REG": "9H-AZH"
+    }
+  ],
+  "B77L": [
+    {
+      "NAME": "Boeing 777-FFG",
+      "REG": "HZ-AK71"
+    },
+    {
+      "NAME": "Boeing 777-FFG",
+      "REG": "HZ-AK72"
+    },
+    {
+      "NAME": "Boeing 777-FFG",
+      "REG": "HZ-AK73"
+    },
+    {
+      "NAME": "Boeing 777-FFG",
+      "REG": "HZ-AK74"
+    }
+  ],
+  "B77W": [
+    {
+      "NAME": "Boeing 777-31H(ER)",
+      "REG": "9H-AZD"
+    },
+    {
+      "NAME": "Boeing 777-31H(ER)",
+      "REG": "9H-AZE"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK11"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK12"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK13"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK14"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK15"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK16"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK17"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK18"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK19"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK20"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK21"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK22"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK23"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK24"
+    },
+    {
+      "NAME": "Boeing 777-367(ER)",
+      "REG": "HZ-AK25"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK26"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK27"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK28"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK29"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK30"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK31"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK32"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK33"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK34"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK35"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK36"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK37"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK38"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK39"
+    },
+    {
+      "NAME": "Boeing 777-3FG(ER)",
+      "REG": "HZ-AK40"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK41"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK42"
+    },
+    {
+      "NAME": "Boeing 777-368(ER)",
+      "REG": "HZ-AK43"
+    }
+  ],
+  "B789": [
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-AR11"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-AR12"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-AR13"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-AR22"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-AR23"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARA"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARB"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARC"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARD"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARE"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARF"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARG"
+    },
+    {
+      "NAME": "Boeing 787-9 Dreamliner",
+      "REG": "HZ-ARH"
+    }
+  ],
+  "B78X": [
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR24"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR25"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR26"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR27"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR28"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR29"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR32"
+    },
+    {
+      "NAME": "Boeing 787-10 Dreamliner",
+      "REG": "HZ-AR33"
+    }
+  ],
+  "BE40": [
+    {
+      "NAME": "Hawker Beechcraft 400XP",
+      "REG": "HZ-SPAB"
+    }
+  ]
+}

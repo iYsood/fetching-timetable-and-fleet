@@ -1,0 +1,152 @@
+{
+  "A20N": [
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAL"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAM"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAN"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAO"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAP"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAQ"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAR"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAS"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAT"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAU"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAV"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAW"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAX"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAY"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FAZ"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBA"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBB"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBC"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBD"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBE"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBF"
+    },
+    {
+      "NAME": "Airbus A320-251N",
+      "REG": "HZ-FBG"
+    }
+  ],
+  "A320": [
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAA"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAB"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAC"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAD"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAE"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAF"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAG"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAH"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAI"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAJ"
+    },
+    {
+      "NAME": "Airbus A320-214",
+      "REG": "HZ-FAK"
+    },
+    {
+      "NAME": "Airbus A320-232",
+      "REG": "UK32071"
+    },
+    {
+      "NAME": "Airbus A320-232",
+      "REG": "UK32072"
+    }
+  ],
+  "B773": [
+    {
+      "NAME": "Boeing 777-31H",
+      "REG": "SU-KHP"
+    }
+  ]
+}
